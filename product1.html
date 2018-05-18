@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <style>
+        body{
+            background-image:url('images/nest-3.jpg');
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/nest-3.jpg',sizingMethod='scale');
+        }
+        @keyframes move {
+            from{top:100%;}
+            to{top:95%;}
+        }
+        .contact-us{
+            /*width:380px;*/
+            /*margin-left:-190px;*/
+            text-align:center;
+            font-size:16px;
+            line-height:24px;
+            font-weight:300;
+            color:#fff;
+            position:absolute;
+            top:95%;
+            left:50%;
+            width:600px;
+            margin-left:-300px;
+            animation:move .5s linear;
+        }
+        @media screen and (max-width:1200px){
+            body{
+                background-image:url('images/nest-3.jpg');
+                /*min-width:960px;*/
+            }
+        }
+        @media screen and (max-width:768px){
+            body {
+                background-image:url('images/nest-3.jpg');
+            }
+            .contact-us{
+                font-size:13px;
+                width:310px;
+                line-height:1.5;
+                margin-left:-155px;
+            }
+        }
+        /*@media screen and (min-width:768px){*/
+            /*body{*/
+                /*background-image:url('images/tasla-mid.jpg');*/
+                /*min-width:960px;*/
+            /*}*/
+        /*}*/
+        /*@media screen and (min-width:1200px){*/
+            /*body{*/
+                /*background-image:url('images/tasla.jpg');*/
+                /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/tasla.jpg',sizingMethod='scale');*/
+            /*}*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div id="header"></div>
+<div class="header-nav">
+</div>
+<div class="contact-us">CloudNest @copy; 2018 · 京公网安备 11011502002791号 · 沪ICP备14038430号-1</div>
+<!--<script src="js/jquery.js"></script>-->
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/header.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
